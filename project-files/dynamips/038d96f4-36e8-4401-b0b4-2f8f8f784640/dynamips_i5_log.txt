@@ -1,0 +1,32 @@
+Dec 03 10:28:40.920 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 03 10:28:40.924 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50611.
+Dec 03 10:28:41.377 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 03 10:28:41.378 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ZAKARIA\GNS3\projects\projet2cs\project-files\dynamips 
+Dec 03 10:28:41.379 GENERAL: working_dir=C:\Users\ZAKARIA\GNS3\projects\projet2cs\project-files\dynamips
+Dec 03 10:28:41.380 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\ZAKARIA\GNS3\projects\projet2cs\project-files\dynamips\1371a0fe-d9c9-48b6-9881-a9c6e90bf5f4 
+Dec 03 10:28:41.380 GENERAL: working_dir=C:\Users\ZAKARIA\GNS3\projects\projet2cs\project-files\dynamips\1371a0fe-d9c9-48b6-9881-a9c6e90bf5f4
+Dec 03 10:28:41.389 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+Dec 03 10:28:41.393 VM: VM R1 created.
+Dec 03 10:28:41.394 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5007 
+Dec 03 10:28:41.395 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Dec 03 10:28:41.396 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 03 10:28:41.396 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Dec 03 10:28:41.397 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Dec 03 10:28:41.398 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Dec 03 10:28:41.399 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 03 10:28:41.399 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x606384b0 
+Dec 03 10:28:41.401 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/ZAKARIA/GNS3/images/IOS/c7200-advipservicesk9-mz150-1M.image 
+Dec 03 10:28:41.402 HYPERVISOR: exec_cmd: c7200 set_mac_addr R1 ca01.38ae.0000 
+Dec 03 10:28:41.403 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Dec 03 10:28:41.403 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Dec 03 10:28:41.404 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 03 10:28:41.405 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-2FE-TX 
+Dec 03 10:28:41.405 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 03 10:28:41.406 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 PA-4T+ 
+Dec 03 10:28:45.500 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 03 10:28:45.505 HYPERVISOR: exec_cmd: vm extract_config R1 
+Dec 03 10:28:45.507 HYPERVISOR: exec_cmd: vm delete R1 
+Dec 03 10:28:45.507 VM: VM R1 destroyed.
+Dec 03 10:28:45.509 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 03 10:28:45.879 HYPERVISOR: Stopped.
+Dec 03 10:28:45.879 GENERAL: reset done.

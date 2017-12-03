@@ -1,0 +1,69 @@
+Nov 18 22:38:02.120 HYPERVISOR: Release 0.2.17-amd64/Linux (tag 2017072410)
+Nov 18 22:38:02.120 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59917.
+Nov 18 22:38:02.130 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 18 22:38:02.130 HYPERVISOR: exec_cmd: hypervisor working_dir /home/mohammed/GNS3/projects/projet2cs/project-files/dynamips 
+Nov 18 22:38:02.130 GENERAL: working_dir=/home/mohammed/GNS3/projects/projet2cs/project-files/dynamips
+Nov 18 22:38:02.130 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-2 
+Nov 18 22:38:02.273 HYPERVISOR: exec_cmd: nio create_udp udp-6f745070-e387-4d31-b8c9-58cbc3678d01 10001 127.0.0.1 10000 
+Nov 18 22:38:02.273 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-6f745070-e387-4d31-b8c9-58cbc3678d01 
+Nov 18 22:38:02.274 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-6f745070-e387-4d31-b8c9-58cbc3678d01 1 
+Nov 18 22:38:17.511 HYPERVISOR: exec_cmd: nio create_udp udp-45b732fd-5d15-4c1d-8b70-9df797ac9068 10013 127.0.0.1 10012 
+Nov 18 22:38:17.512 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-45b732fd-5d15-4c1d-8b70-9df797ac9068 
+Nov 18 22:38:17.522 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-45b732fd-5d15-4c1d-8b70-9df797ac9068 1 
+Nov 18 22:38:23.541 HYPERVISOR: exec_cmd: nio create_udp udp-9a1df4c3-8655-4ea1-9aa7-910e24d08701 10014 127.0.0.1 10015 
+Nov 18 22:38:23.541 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-9a1df4c3-8655-4ea1-9aa7-910e24d08701 
+Nov 18 22:38:23.557 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-9a1df4c3-8655-4ea1-9aa7-910e24d08701 1 
+Nov 18 22:38:30.016 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-6f745070-e387-4d31-b8c9-58cbc3678d01 1 
+Nov 18 22:38:30.017 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-45b732fd-5d15-4c1d-8b70-9df797ac9068 1 
+Nov 18 22:38:30.017 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-9a1df4c3-8655-4ea1-9aa7-910e24d08701 1 
+Nov 18 22:42:44.358 HYPERVISOR: exec_cmd: nio create_udp udp-883f7406-8957-4bc0-98c7-7805fc24fe19 10026 127.0.0.1 10027 
+Nov 18 22:42:44.359 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-883f7406-8957-4bc0-98c7-7805fc24fe19 
+Nov 18 22:42:44.363 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-883f7406-8957-4bc0-98c7-7805fc24fe19 1 
+Nov 18 22:44:09.432 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-6f745070-e387-4d31-b8c9-58cbc3678d01 1 
+Nov 18 22:44:09.432 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-45b732fd-5d15-4c1d-8b70-9df797ac9068 1 
+Nov 18 22:44:09.433 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-9a1df4c3-8655-4ea1-9aa7-910e24d08701 1 
+Nov 18 22:44:09.433 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-883f7406-8957-4bc0-98c7-7805fc24fe19 1 
+Nov 18 22:44:10.803 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-6f745070-e387-4d31-b8c9-58cbc3678d01 1 
+Nov 18 22:44:10.803 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-45b732fd-5d15-4c1d-8b70-9df797ac9068 1 
+Nov 18 22:44:10.804 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-9a1df4c3-8655-4ea1-9aa7-910e24d08701 1 
+Nov 18 22:44:10.804 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-883f7406-8957-4bc0-98c7-7805fc24fe19 1 
+Nov 18 22:44:22.340 HYPERVISOR: exec_cmd: ethsw remove_nio Ethernetswitch-2 udp-45b732fd-5d15-4c1d-8b70-9df797ac9068 
+Nov 18 22:44:22.354 HYPERVISOR: exec_cmd: nio delete udp-45b732fd-5d15-4c1d-8b70-9df797ac9068 
+Nov 18 22:44:24.575 HYPERVISOR: exec_cmd: ethsw remove_nio Ethernetswitch-2 udp-9a1df4c3-8655-4ea1-9aa7-910e24d08701 
+Nov 18 22:44:24.587 HYPERVISOR: exec_cmd: nio delete udp-9a1df4c3-8655-4ea1-9aa7-910e24d08701 
+Nov 18 22:44:26.339 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-6f745070-e387-4d31-b8c9-58cbc3678d01 1 
+Nov 18 22:44:26.339 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-883f7406-8957-4bc0-98c7-7805fc24fe19 1 
+Nov 18 22:44:40.903 HYPERVISOR: exec_cmd: nio create_udp udp-ab559d3b-c8e9-48ac-855d-b5fa5af0c81c 10012 127.0.0.1 10013 
+Nov 18 22:44:40.903 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-ab559d3b-c8e9-48ac-855d-b5fa5af0c81c 
+Nov 18 22:44:40.915 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-ab559d3b-c8e9-48ac-855d-b5fa5af0c81c 1 
+Nov 18 22:44:56.744 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-6f745070-e387-4d31-b8c9-58cbc3678d01 1 
+Nov 18 22:44:56.744 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-ab559d3b-c8e9-48ac-855d-b5fa5af0c81c 1 
+Nov 18 22:44:56.744 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-883f7406-8957-4bc0-98c7-7805fc24fe19 1 
+Nov 18 22:45:35.761 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-6f745070-e387-4d31-b8c9-58cbc3678d01 1 
+Nov 18 22:45:35.762 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-ab559d3b-c8e9-48ac-855d-b5fa5af0c81c 1 
+Nov 18 22:45:35.762 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-883f7406-8957-4bc0-98c7-7805fc24fe19 1 
+Nov 18 22:48:40.023 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-6f745070-e387-4d31-b8c9-58cbc3678d01 1 
+Nov 18 22:48:40.024 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-ab559d3b-c8e9-48ac-855d-b5fa5af0c81c 1 
+Nov 18 22:48:40.024 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-883f7406-8957-4bc0-98c7-7805fc24fe19 1 
+Nov 18 23:35:09.185 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-6f745070-e387-4d31-b8c9-58cbc3678d01 1 
+Nov 18 23:35:09.185 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-ab559d3b-c8e9-48ac-855d-b5fa5af0c81c 1 
+Nov 18 23:35:09.186 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-883f7406-8957-4bc0-98c7-7805fc24fe19 1 
+Nov 18 23:55:17.222 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-6f745070-e387-4d31-b8c9-58cbc3678d01 1 
+Nov 18 23:55:17.222 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-ab559d3b-c8e9-48ac-855d-b5fa5af0c81c 1 
+Nov 18 23:55:17.223 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-883f7406-8957-4bc0-98c7-7805fc24fe19 1 
+Nov 18 23:55:47.789 HYPERVISOR: exec_cmd: nio create_udp udp-53c72bb8-20b8-4b63-adf7-c48ee2f56352 10004 127.0.0.1 10005 
+Nov 18 23:55:47.790 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-53c72bb8-20b8-4b63-adf7-c48ee2f56352 
+Nov 18 23:55:47.799 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-53c72bb8-20b8-4b63-adf7-c48ee2f56352 1 
+Nov 18 23:56:10.817 HYPERVISOR: exec_cmd: ethsw remove_nio Ethernetswitch-2 udp-883f7406-8957-4bc0-98c7-7805fc24fe19 
+Nov 18 23:56:10.822 HYPERVISOR: exec_cmd: nio delete udp-883f7406-8957-4bc0-98c7-7805fc24fe19 
+Nov 18 23:57:09.740 HYPERVISOR: exec_cmd: nio create_udp udp-1049aeb0-c294-4477-ab47-efcc1e22fc8e 10006 127.0.0.1 10007 
+Nov 18 23:57:09.740 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-2 udp-1049aeb0-c294-4477-ab47-efcc1e22fc8e 
+Nov 18 23:57:09.749 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-1049aeb0-c294-4477-ab47-efcc1e22fc8e 1 
+Nov 19 00:02:58.458 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Ethernetswitch-2 udp-6f745070-e387-4d31-b8c9-58cbc3678d01 1 
+Nov 19 00:02:58.458 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-ab559d3b-c8e9-48ac-855d-b5fa5af0c81c 3 
+Nov 19 00:02:58.459 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-53c72bb8-20b8-4b63-adf7-c48ee2f56352 2 
+Nov 19 00:02:58.459 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-2 udp-1049aeb0-c294-4477-ab47-efcc1e22fc8e 2 
+Nov 19 00:10:46.654 HYPERVISOR: exec_cmd: ethsw delete Ethernetswitch-2 
+Nov 19 00:10:46.732 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 19 00:10:46.881 HYPERVISOR: Stopped.
+Nov 19 00:10:46.881 GENERAL: reset done.
